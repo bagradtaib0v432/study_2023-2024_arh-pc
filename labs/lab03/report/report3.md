@@ -13,6 +13,8 @@ bibliography: bib/cite.bib
 csl: pandoc/csl/gost-r-7-0-5-2008-numeric.csl
 
 ## Pdf output format
+toc: true
+toc-own-page: true
 toc: true # Table of contents
 toc-depth: 2
 lof: true # List of figures
@@ -26,8 +28,8 @@ documentclass: scrreprt
 polyglossia-lang:
   name: russian
   options:
-	- spelling=modern
-	- babelshorthands=true
+      - spelling=modern
+      - babelshorthands=true
 polyglossia-otherlangs:
   name: english
 
@@ -36,10 +38,10 @@ babel-lang: russian
 babel-otherlangs: english
 
 ## Fonts
-mainfont: PT Serif
-romanfont: PT Serif
-sansfont: PT Sans
-monofont: PT Mono
+mainfont: DejaVuSerif
+romanfont: Times New Roman
+sansfont: DejaVuSans
+monofont: DejaVuSansMono
 mainfontoptions: Ligatures=TeX
 romanfontoptions: Ligatures=TeX
 sansfontoptions: Ligatures=TeX,Scale=MatchLowercase
@@ -291,3 +293,5 @@ git add .
 git commit -am 'feat(main): add files lab-3'
 git push
 ```
+
+![github uploaded files](image/mannik5.jpg)<hr><br>
